@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SocietyViewController">
+            <connections>
+                <outlet property="tableView" destination="exs-LB-9En" id="xPQ-V5-ecR"/>
+                <outlet property="view" destination="i6g-zO-CYU" id="y6B-RX-4Wb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="i6g-zO-CYU">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="exs-LB-9En">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="BcJ-mz-G4N"/>
+                        <outlet property="delegate" destination="-1" id="I7A-ab-39b"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="exs-LB-9En" firstAttribute="top" secondItem="i6g-zO-CYU" secondAttribute="top" id="QPu-Tk-gzI"/>
+                <constraint firstAttribute="trailing" secondItem="exs-LB-9En" secondAttribute="trailing" id="QmV-7U-eLC"/>
+                <constraint firstItem="exs-LB-9En" firstAttribute="leading" secondItem="i6g-zO-CYU" secondAttribute="leading" id="dAa-DO-8Go"/>
+                <constraint firstAttribute="bottom" secondItem="exs-LB-9En" secondAttribute="bottom" constant="49" id="qfa-Yk-Jy9"/>
+            </constraints>
+            <point key="canvasLocation" x="-41" y="-404"/>
+        </view>
+    </objects>
+</document>
