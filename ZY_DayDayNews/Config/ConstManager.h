@@ -12,6 +12,9 @@ extern CGFloat const ZYNavBarAndStatus_Height;
 extern CGFloat const ZYNavBar_Height;
 extern CGFloat const ZYStatusBar_Height;
 extern CGFloat const ZYTabBar_Height;
+extern NSInteger const ZYTag;
+
+extern NSString * const ZYCell;
 
 @interface ConstManager : NSObject
 

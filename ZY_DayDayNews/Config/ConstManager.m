@@ -12,6 +12,9 @@ CGFloat const ZYNavBarAndStatus_Height = 64;
 CGFloat const ZYNavBar_Height = 44;
 CGFloat const ZYStatusBar_Height = 20;
 CGFloat const ZYTabBar_Height = 49;
+NSInteger const ZYTag = 10;
+
+NSString * const ZYCell = @"cell";
 
 @implementation ConstManager
 

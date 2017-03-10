@@ -58,7 +58,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NewsDetailVC * vc = [[NewsDetailVC alloc] init];
-    vc.title = @"NewsDetail";
+//    vc.title = @"NewsDetail";
     [self.navigationController pushViewController:vc animated:YES];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

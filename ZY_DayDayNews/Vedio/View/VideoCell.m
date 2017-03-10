@@ -13,36 +13,22 @@
 
 + (instancetype)cellWithTableView:(UITableView *)tableView{
 
-    tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    VideoCell * cell = [tableView dequeueReusableCellWithIdentifier:ZYCell];
+    static NSString *ID = @"cellidf";
+    VideoCell * cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (!cell) {
-        cell = [[VideoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ZYCell];
+        cell = [[VideoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return cell;
 }
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-    
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
         [self layoutView];
     }
     return self;
-}
-
-//时间转换
-- (NSString *)convertTime:(CGFloat)second{
-    NSDateFormatter * fmt = [[NSDateFormatter alloc] init];
-    NSDate * d = [NSDate dateWithTimeIntervalSince1970:second];
-    if (second/3600 >= 1) {
-        [fmt setDateFormat:@"HH:mm:ss"];
-    } else {
-        [fmt setDateFormat:@"mm:ss"];
-    }
-    NSString *showtimeNew = [fmt stringFromDate:d];
-    return showtimeNew;
 }
 
 
@@ -102,8 +88,21 @@
     _lineV.backgroundColor = [UIColor magentaColor];
     [self.contentView addSubview:_lineV];
     
+//    _imageview.frame = _videodataframe.coverF;
+//    _titleLabel.frame = _videodataframe.titleF;
+//    //中间播放大图标
+//    _playcoverImage.frame = _videodataframe.playF;
+//    _lengthLabel.frame = _videodataframe.lengthF;
+//    _playImage.frame = _videodataframe.playImageF;
+//    _playcountLabel.frame = _videodataframe.playCountF;
+//    _lineV.frame = _videodataframe.lineVF;
+
+
 }
+
+
 - (void)setVideodataframe:(VideoDataFrame *)videodataframe{
+    
     _videodataframe = videodataframe;
     VideoData * videodata = _videodataframe.videodata;
     
@@ -131,6 +130,19 @@
     _lineV.frame = _videodataframe.lineVF;
 }
 
+
+//时间转换
+- (NSString *)convertTime:(CGFloat)second{
+    NSDateFormatter * fmt = [[NSDateFormatter alloc] init];
+    NSDate * d = [NSDate dateWithTimeIntervalSince1970:second];
+    if (second/3600 >= 1) {
+        [fmt setDateFormat:@"HH:mm:ss"];
+    } else {
+        [fmt setDateFormat:@"mm:ss"];
+    }
+    NSString *showtimeNew = [fmt stringFromDate:d];
+    return showtimeNew;
+}
 
 - (void)awakeFromNib {
     [super awakeFromNib];

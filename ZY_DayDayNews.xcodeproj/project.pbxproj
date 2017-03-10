@@ -20,7 +20,20 @@
 		9A65625F1E654B0800E78A04 /* ZYNavTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6562571E654B0800E78A04 /* ZYNavTabBar.m */; };
 		9A6562631E654BF600E78A04 /* NewsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6562611E654BF600E78A04 /* NewsDetailVC.m */; };
 		9A6562641E654BF600E78A04 /* NewsDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6562621E654BF600E78A04 /* NewsDetailVC.xib */; };
+		9A7B3F881E6D09E4004F72CF /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B3F871E6D09E4004F72CF /* VideoViewController.m */; };
+		9A7B3F8B1E6D0A59004F72CF /* VDCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B3F8A1E6D0A59004F72CF /* VDCategoryView.m */; };
+		9A7B3F8E1E6D351F004F72CF /* GZYPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B3F8D1E6D351F004F72CF /* GZYPlay.m */; };
+		9A7B3FD61E6D4409004F72CF /* GZYCircleLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B3FD51E6D4409004F72CF /* GZYCircleLoadingView.m */; };
 		9A8506461E6420320029A020 /* ZYCycleBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8506451E6420320029A020 /* ZYCycleBannerCell.m */; };
+		9A8709571E6E57D30097F696 /* GZYRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8709561E6E57D30097F696 /* GZYRefreshGifHeader.m */; };
+		9A87095A1E6E63B30097F696 /* VideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8709591E6E63B30097F696 /* VideoData.m */; };
+		9A87095D1E6E64DB0097F696 /* VideoDataFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87095C1E6E64DB0097F696 /* VideoDataFrame.m */; };
+		9A87B2931E67D38500D4C456 /* AFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87B2921E67D38500D4C456 /* AFManager.m */; };
+		9A87B2991E69127500D4C456 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87B2961E69127500D4C456 /* PictureViewController.m */; };
+		9A87B29C1E6912C800D4C456 /* GZYWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87B29B1E6912C800D4C456 /* GZYWaterFlowLayout.m */; };
+		9A87B2A01E69565500D4C456 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87B29E1E69565500D4C456 /* PhotoCell.m */; };
+		9A87B2A11E69565500D4C456 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A87B29F1E69565500D4C456 /* PhotoCell.xib */; };
+		9A87B2A41E6969CB00D4C456 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87B2A31E6969CB00D4C456 /* Photo.m */; };
 		9A87E4841E5FD9AD005B7F97 /* ZYWebServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87E4831E5FD9AD005B7F97 /* ZYWebServiceCenter.m */; };
 		9A886A3D1E5D2EBB005DB116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886A3C1E5D2EBB005DB116 /* main.m */; };
 		9A886A461E5D2EBB005DB116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A886A441E5D2EBB005DB116 /* Main.storyboard */; };
@@ -41,13 +54,12 @@
 		9A886AE01E5D79EE005DB116 /* ZYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886AD01E5D79EE005DB116 /* ZYNavigationViewController.m */; };
 		9A886AE11E5D79EE005DB116 /* ZYTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886AD21E5D79EE005DB116 /* ZYTabbarViewController.m */; };
 		9A886AE21E5D79EE005DB116 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886AD51E5D79EE005DB116 /* MyViewController.m */; };
-		9A886AE41E5D79EE005DB116 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886ADB1E5D79EE005DB116 /* PictureViewController.m */; };
-		9A886AE51E5D79EE005DB116 /* VedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886ADE1E5D79EE005DB116 /* VedioViewController.m */; };
 		9A886AEC1E5D7A30005DB116 /* checkmark_failure_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A886AE81E5D7A30005DB116 /* checkmark_failure_white@2x.png */; };
 		9A886AED1E5D7A30005DB116 /* checkmark_success_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A886AE91E5D7A30005DB116 /* checkmark_success_white@2x.png */; };
 		9A886AEE1E5D7A30005DB116 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886AEB1E5D7A30005DB116 /* MBProgressHUD.m */; };
 		9A8D42901E5ED6F200D04107 /* UIView+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D428F1E5ED6F200D04107 /* UIView+ZY.m */; };
 		9A8D42951E5EDA8000D04107 /* ConstManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D42941E5EDA8000D04107 /* ConstManager.m */; };
+		9A9273881E7148C400590327 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9273861E7148C400590327 /* VideoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,9 +103,34 @@
 		9A6562601E654BF600E78A04 /* NewsDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailVC.h; sourceTree = "<group>"; };
 		9A6562611E654BF600E78A04 /* NewsDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailVC.m; sourceTree = "<group>"; };
 		9A6562621E654BF600E78A04 /* NewsDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailVC.xib; sourceTree = "<group>"; };
+		9A7B3F861E6D09E4004F72CF /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		9A7B3F871E6D09E4004F72CF /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		9A7B3F891E6D0A59004F72CF /* VDCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDCategoryView.h; sourceTree = "<group>"; };
+		9A7B3F8A1E6D0A59004F72CF /* VDCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDCategoryView.m; sourceTree = "<group>"; };
+		9A7B3F8C1E6D351F004F72CF /* GZYPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYPlay.h; sourceTree = "<group>"; };
+		9A7B3F8D1E6D351F004F72CF /* GZYPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYPlay.m; sourceTree = "<group>"; };
+		9A7B3FD41E6D4409004F72CF /* GZYCircleLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYCircleLoadingView.h; sourceTree = "<group>"; };
+		9A7B3FD51E6D4409004F72CF /* GZYCircleLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYCircleLoadingView.m; sourceTree = "<group>"; };
 		9A8506441E6420320029A020 /* ZYCycleBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCycleBannerCell.h; sourceTree = "<group>"; };
 		9A8506451E6420320029A020 /* ZYCycleBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCycleBannerCell.m; sourceTree = "<group>"; };
 		9A8506471E6422550029A020 /* ZYThirdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYThirdManager.h; sourceTree = "<group>"; };
+		9A8709551E6E57D30097F696 /* GZYRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRefreshGifHeader.h; sourceTree = "<group>"; };
+		9A8709561E6E57D30097F696 /* GZYRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRefreshGifHeader.m; sourceTree = "<group>"; };
+		9A8709581E6E63B30097F696 /* VideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoData.h; sourceTree = "<group>"; };
+		9A8709591E6E63B30097F696 /* VideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoData.m; sourceTree = "<group>"; };
+		9A87095B1E6E64DB0097F696 /* VideoDataFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDataFrame.h; sourceTree = "<group>"; };
+		9A87095C1E6E64DB0097F696 /* VideoDataFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDataFrame.m; sourceTree = "<group>"; };
+		9A87B2911E67D38500D4C456 /* AFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFManager.h; sourceTree = "<group>"; };
+		9A87B2921E67D38500D4C456 /* AFManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFManager.m; sourceTree = "<group>"; };
+		9A87B2951E69127500D4C456 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		9A87B2961E69127500D4C456 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		9A87B29A1E6912C800D4C456 /* GZYWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYWaterFlowLayout.h; sourceTree = "<group>"; };
+		9A87B29B1E6912C800D4C456 /* GZYWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYWaterFlowLayout.m; sourceTree = "<group>"; };
+		9A87B29D1E69565500D4C456 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		9A87B29E1E69565500D4C456 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		9A87B29F1E69565500D4C456 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		9A87B2A21E6969CB00D4C456 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		9A87B2A31E6969CB00D4C456 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		9A87E4821E5FD9AD005B7F97 /* ZYWebServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWebServiceCenter.h; sourceTree = "<group>"; };
 		9A87E4831E5FD9AD005B7F97 /* ZYWebServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWebServiceCenter.m; sourceTree = "<group>"; };
 		9A886A381E5D2EBB005DB116 /* ZY_DayDayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZY_DayDayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,10 +174,6 @@
 		9A886AD21E5D79EE005DB116 /* ZYTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabbarViewController.m; sourceTree = "<group>"; };
 		9A886AD41E5D79EE005DB116 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		9A886AD51E5D79EE005DB116 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		9A886ADA1E5D79EE005DB116 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
-		9A886ADB1E5D79EE005DB116 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
-		9A886ADD1E5D79EE005DB116 /* VedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioViewController.h; sourceTree = "<group>"; };
-		9A886ADE1E5D79EE005DB116 /* VedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioViewController.m; sourceTree = "<group>"; };
 		9A886AE81E5D7A30005DB116 /* checkmark_failure_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark_failure_white@2x.png"; sourceTree = "<group>"; };
 		9A886AE91E5D7A30005DB116 /* checkmark_success_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark_success_white@2x.png"; sourceTree = "<group>"; };
 		9A886AEA1E5D7A30005DB116 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -149,6 +182,8 @@
 		9A8D428F1E5ED6F200D04107 /* UIView+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZY.m"; sourceTree = "<group>"; };
 		9A8D42931E5EDA8000D04107 /* ConstManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstManager.h; sourceTree = "<group>"; };
 		9A8D42941E5EDA8000D04107 /* ConstManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstManager.m; sourceTree = "<group>"; };
+		9A9273861E7148C400590327 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		9A9273871E7148C400590327 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		D7FD4079891384D95B5AF7C3 /* Pods-ZY_DayDayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZY_DayDayNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZY_DayDayNews/Pods-ZY_DayDayNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +256,71 @@
 				9A6562551E654B0800E78A04 /* NewsCell.xib */,
 				9A6562561E654B0800E78A04 /* ZYNavTabBar.h */,
 				9A6562571E654B0800E78A04 /* ZYNavTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A7B3F831E6D09E4004F72CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A8709581E6E63B30097F696 /* VideoData.h */,
+				9A8709591E6E63B30097F696 /* VideoData.m */,
+				9A87095B1E6E64DB0097F696 /* VideoDataFrame.h */,
+				9A87095C1E6E64DB0097F696 /* VideoDataFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A7B3F841E6D09E4004F72CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A7B3F891E6D0A59004F72CF /* VDCategoryView.h */,
+				9A7B3F8A1E6D0A59004F72CF /* VDCategoryView.m */,
+				9A7B3F8C1E6D351F004F72CF /* GZYPlay.h */,
+				9A7B3F8D1E6D351F004F72CF /* GZYPlay.m */,
+				9A7B3FD41E6D4409004F72CF /* GZYCircleLoadingView.h */,
+				9A7B3FD51E6D4409004F72CF /* GZYCircleLoadingView.m */,
+				9A9273871E7148C400590327 /* VideoCell.h */,
+				9A9273861E7148C400590327 /* VideoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A7B3F851E6D09E4004F72CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A7B3F861E6D09E4004F72CF /* VideoViewController.h */,
+				9A7B3F871E6D09E4004F72CF /* VideoViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9A87B2941E69127500D4C456 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A87B2951E69127500D4C456 /* PictureViewController.h */,
+				9A87B2961E69127500D4C456 /* PictureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A87B2971E69127500D4C456 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A87B2A21E6969CB00D4C456 /* Photo.h */,
+				9A87B2A31E6969CB00D4C456 /* Photo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A87B2981E69127500D4C456 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A87B29A1E6912C800D4C456 /* GZYWaterFlowLayout.h */,
+				9A87B29B1E6912C800D4C456 /* GZYWaterFlowLayout.m */,
+				9A87B29D1E69565500D4C456 /* PhotoCell.h */,
+				9A87B29E1E69565500D4C456 /* PhotoCell.m */,
+				9A87B29F1E69565500D4C456 /* PhotoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -384,8 +484,9 @@
 		9A886AD91E5D79EE005DB116 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
-				9A886ADA1E5D79EE005DB116 /* PictureViewController.h */,
-				9A886ADB1E5D79EE005DB116 /* PictureViewController.m */,
+				9A87B2941E69127500D4C456 /* Controller */,
+				9A87B2971E69127500D4C456 /* Model */,
+				9A87B2981E69127500D4C456 /* View */,
 			);
 			path = Picture;
 			sourceTree = "<group>";
@@ -393,8 +494,9 @@
 		9A886ADC1E5D79EE005DB116 /* Vedio */ = {
 			isa = PBXGroup;
 			children = (
-				9A886ADD1E5D79EE005DB116 /* VedioViewController.h */,
-				9A886ADE1E5D79EE005DB116 /* VedioViewController.m */,
+				9A7B3F831E6D09E4004F72CF /* Model */,
+				9A7B3F841E6D09E4004F72CF /* View */,
+				9A7B3F851E6D09E4004F72CF /* ViewController */,
 			);
 			path = Vedio;
 			sourceTree = "<group>";
@@ -408,8 +510,12 @@
 				9A8506451E6420320029A020 /* ZYCycleBannerCell.m */,
 				9A6562331E65078600E78A04 /* ZYCycleBannerView.h */,
 				9A6562341E65078600E78A04 /* ZYCycleBannerView.m */,
+				9A8709551E6E57D30097F696 /* GZYRefreshGifHeader.h */,
+				9A8709561E6E57D30097F696 /* GZYRefreshGifHeader.m */,
 				9A6562361E650B4000E78A04 /* BaseEngine.h */,
 				9A6562371E650B4000E78A04 /* BaseEngine.m */,
+				9A87B2911E67D38500D4C456 /* AFManager.h */,
+				9A87B2921E67D38500D4C456 /* AFManager.m */,
 				9A886AE71E5D7A30005DB116 /* MBProgressHUD */,
 			);
 			path = Tools;
@@ -552,6 +658,7 @@
 				9A65625E1E654B0800E78A04 /* NewsCell.xib in Resources */,
 				9A886AED1E5D7A30005DB116 /* checkmark_success_white@2x.png in Resources */,
 				9A886A461E5D2EBB005DB116 /* Main.storyboard in Resources */,
+				9A87B2A11E69565500D4C456 /* PhotoCell.xib in Resources */,
 				9A886AEC1E5D7A30005DB116 /* checkmark_failure_white@2x.png in Resources */,
 				9A65625B1E654B0800E78A04 /* SocietyViewController.xib in Resources */,
 			);
@@ -626,34 +733,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A87B2A01E69565500D4C456 /* PhotoCell.m in Sources */,
 				9A6562381E650B4000E78A04 /* BaseEngine.m in Sources */,
 				9A886A891E5D2F9E005DB116 /* UIButton+ZY.m in Sources */,
+				9A87B29C1E6912C800D4C456 /* GZYWaterFlowLayout.m in Sources */,
 				9A8D42901E5ED6F200D04107 /* UIView+ZY.m in Sources */,
 				9A6562581E654B0800E78A04 /* NewsViewController.m in Sources */,
+				9A7B3F8B1E6D0A59004F72CF /* VDCategoryView.m in Sources */,
+				9A87095D1E6E64DB0097F696 /* VideoDataFrame.m in Sources */,
 				9A886AE01E5D79EE005DB116 /* ZYNavigationViewController.m in Sources */,
+				9A7B3F8E1E6D351F004F72CF /* GZYPlay.m in Sources */,
 				9A886A8B1E5D2F9E005DB116 /* UIViewController+ZY.m in Sources */,
+				9A87B2931E67D38500D4C456 /* AFManager.m in Sources */,
+				9A7B3FD61E6D4409004F72CF /* GZYCircleLoadingView.m in Sources */,
 				9A6562591E654B0800E78A04 /* OtherViewController.m in Sources */,
 				9A886AB01E5D5C70005DB116 /* UIBarButtonItem+ZY.m in Sources */,
+				9A8709571E6E57D30097F696 /* GZYRefreshGifHeader.m in Sources */,
 				9A886A871E5D2F9E005DB116 /* AppDelegate+ZY.m in Sources */,
+				9A87095A1E6E63B30097F696 /* VideoData.m in Sources */,
 				9A886A3D1E5D2EBB005DB116 /* main.m in Sources */,
 				9A65625F1E654B0800E78A04 /* ZYNavTabBar.m in Sources */,
 				9A65625D1E654B0800E78A04 /* NewsCell.m in Sources */,
 				9A886AE11E5D79EE005DB116 /* ZYTabbarViewController.m in Sources */,
+				9A7B3F881E6D09E4004F72CF /* VideoViewController.m in Sources */,
 				9A8D42951E5EDA8000D04107 /* ConstManager.m in Sources */,
 				9A886A861E5D2F9E005DB116 /* NSString+ZY.m in Sources */,
 				9A886AE21E5D79EE005DB116 /* MyViewController.m in Sources */,
 				9A886A851E5D2F9E005DB116 /* NSDate+ZY.m in Sources */,
-				9A886AE41E5D79EE005DB116 /* PictureViewController.m in Sources */,
 				9A8506461E6420320029A020 /* ZYCycleBannerCell.m in Sources */,
 				9A886ADF1E5D79EE005DB116 /* AppDelegate.m in Sources */,
 				9A6562351E65078600E78A04 /* ZYCycleBannerView.m in Sources */,
+				9A9273881E7148C400590327 /* VideoCell.m in Sources */,
 				9A886AEE1E5D7A30005DB116 /* MBProgressHUD.m in Sources */,
 				9A886A881E5D2F9E005DB116 /* CALayer+ZY.m in Sources */,
 				9A87E4841E5FD9AD005B7F97 /* ZYWebServiceCenter.m in Sources */,
+				9A87B2A41E6969CB00D4C456 /* Photo.m in Sources */,
 				9A886A971E5D3419005DB116 /* UIColor+ZY.m in Sources */,
+				9A87B2991E69127500D4C456 /* PictureViewController.m in Sources */,
 				9A65625A1E654B0800E78A04 /* SocietyViewController.m in Sources */,
 				9A65625C1E654B0800E78A04 /* TopData.m in Sources */,
-				9A886AE51E5D79EE005DB116 /* VedioViewController.m in Sources */,
 				9A6562631E654BF600E78A04 /* NewsDetailVC.m in Sources */,
 				9A886A8A1E5D2F9E005DB116 /* UIImage+ZY.m in Sources */,
 			);
@@ -809,6 +927,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZY_DayDayNews/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = ZY_DayDayNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZY.ZY-DayDayNews";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -824,6 +943,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZY_DayDayNews/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = ZY_DayDayNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZY.ZY-DayDayNews";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -10,7 +10,10 @@
 
 static id _instance;
 @implementation BaseEngine
-
+- (void)clear{
+    static dispatch_once_t onceToken;
+    onceToken = 0;
+}
 + (instancetype)allocWithZone:(struct _NSZone *)zone{
     
     static dispatch_once_t onceToken;

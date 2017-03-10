@@ -9,7 +9,7 @@
 #import "ZYTabbarViewController.h"
 #import "NewsViewController.h"
 #import "PictureViewController.h"
-#import "VedioViewController.h"
+#import "VideoViewController.h"
 #import "MyViewController.h"
 #import "ZYNavigationViewController.h"
 @interface ZYTabbarViewController ()
@@ -38,7 +38,7 @@
     [self addChildViewController:newsVc title:@"新闻" imageName:@"tabbar_news" selectedImage:@"tabbar_news_hl"];
     PictureViewController * pictureVc = [[PictureViewController alloc] init];
     [self addChildViewController:pictureVc title:@"图片" imageName:@"tabbar_picture" selectedImage:@"tabbar_picture_hl"];
-    VedioViewController * vedioVc = [[VedioViewController alloc] init];
+    VideoViewController * vedioVc = [[VideoViewController alloc] init];
     [self addChildViewController:vedioVc title:@"视频" imageName:@"tabbar_video" selectedImage:@"tabbar_video_hl"];
     MyViewController * myVc = [[MyViewController alloc] init];
     [self addChildViewController:myVc title:@"我的" imageName:@"tabbar_setting" selectedImage:@"tabbar_setting_hl"];

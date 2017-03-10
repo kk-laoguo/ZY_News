@@ -65,6 +65,12 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:msg delega
 #define KSCREENH_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define Scale_Width (KSCREEN_WIDTH/375.0)
 #define Scale_Height (KSCREENH_HEIGHT/667.0)
+// 颜色
+#define ZYColor(colorString)           [UIColor colorWithHexString:colorString]
+#define RGBA(r,g,b,a)                   [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+
+
 
 // 弱引用申明
 #if __has_feature(objc_arc)

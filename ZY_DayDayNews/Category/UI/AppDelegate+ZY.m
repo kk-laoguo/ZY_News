@@ -94,7 +94,7 @@
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
     
     // [viewController.tabBarItem.title isEqualToString:@"我的"]
-    UINavigationController * nav = (UINavigationController *)viewController;
+//    UINavigationController * nav = (UINavigationController *)viewController;
 //    if ([nav.viewControllers[0] isKindOfClass:[InformationBaseViewController class]]) {
 //        if (!ISLOGIN) {
 //            LoginViewController * vc = [[LoginViewController alloc] init];

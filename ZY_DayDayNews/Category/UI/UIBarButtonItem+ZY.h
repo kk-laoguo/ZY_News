@@ -14,7 +14,7 @@
 
 + (UIBarButtonItem *)ItemWithTitle:(NSString *)title target:(id)target action:(SEL)action;
 /**
- 返回程序能用的导航条按钮,文字与图片共存，图片居右
+ 返回程序能用的导航条按钮,文字与图片共存，图片居右,(butotn图片和title共存时,默认图片是距左的)
  @param image : 图标
  @param title : 标题
  @param target : 点击按钮接受者

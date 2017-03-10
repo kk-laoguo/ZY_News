@@ -10,4 +10,6 @@
 
 @interface VDCategoryView : UIView
 
+@property (nonatomic, copy) void(^SelectBlock)(NSInteger tag, NSString * title);
+
 @end

@@ -12,6 +12,8 @@ typedef void (^failBlock)(id error);
 
 @interface BaseEngine : NSObject
 + (instancetype)shareEngine;
+/** 销毁单例类 */
+- (void)clear;
 
 - (void)getRequestWithPara:(NSMutableDictionary *)para
                        url:(NSString *)url

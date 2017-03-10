@@ -64,6 +64,13 @@ static NSString * const k_cellID = @"cell";
 
 @implementation ZYCycleBannerView
 
+- (void)dealloc{
+    self.collectionView.delegate = nil;
+    self.collectionView.dataSource = nil;
+    [self invalidateTimer];
+
+}
+
 - (instancetype)initWithFrame:(CGRect)frame{
     
     self = [super initWithFrame:frame];
@@ -77,6 +84,15 @@ static NSString * const k_cellID = @"cell";
     }
     return self;
 }
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    if (self.collectionView.contentOffset.x == 0 && _totalItemsCount) {
+        int targetIndex = 0;
+        targetIndex = _totalItemsCount * 0.5;
+        [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:targetIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+    }
+}
+
 #pragma mark -- 初始化控件 --
 - (void)setupControl{
     
@@ -176,7 +192,6 @@ static NSString * const k_cellID = @"cell";
     
     self.pageControl.numberOfPages = _imgArr.count;
     self.pageControl.currentPage = [self pageContrlIndexWithCurrentItemIndex:[self currentIndex]];
-    
     _totalItemsCount = _imgArr.count * 100;
     [self.collectionView reloadData];
     //有数据再开启定时器
