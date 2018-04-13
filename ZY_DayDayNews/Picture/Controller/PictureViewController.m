@@ -42,7 +42,7 @@
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
 //    return self.photoArr.count;
-    return 10;
+    return 50;
     
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
@@ -72,6 +72,7 @@
         _layout.delegate = self;
         _collectionView = [[UICollectionView alloc]
                            initWithFrame:CGRectMake(0, 0, KSCREEN_WIDTH, KSCREENH_HEIGHT - ZYNavBarAndStatus_Height) collectionViewLayout:_layout];
+       
         _collectionView.backgroundColor = [UIColor whiteColor];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;

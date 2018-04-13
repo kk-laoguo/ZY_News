@@ -27,10 +27,16 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];
-    [UITabBar appearance].translucent = NO;
+//    [[UITabBar appearance] setBarTintColor:[UIColor clearColor]];
+//    [UITabBar appearance].translucent = YES;
+    
+    //背景图片为透明色
+    //[[UITabBar appearance] setBackgroundImage:[self createImageWithColor:[UIColor clearColor]]];
+    self.tabBar.backgroundColor = [UIColor colorWithHexString:@"ffffff" alpha:0.9];
+    //设置为半透明
+    self.tabBarController.tabBar.translucent = YES;
+    
     [self setupViewController];
-
 }
 - (void)setupViewController{
     
@@ -49,6 +55,13 @@
     childVc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     childVc.title = title;
     [childVc.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor],NSFontAttributeName:[UIFont systemFontOfSize:13.f]} forState:UIControlStateSelected];
+//    if ([childVc isKindOfClass:[PictureViewController class]]) {
+//        CGFloat offset = 10.0;
+//        //tabBar图片居中显示，不显示文字
+//        childVc.title = @"";
+//
+//        childVc.tabBarItem.imageInsets = UIEdgeInsetsMake(offset, 0, -offset, 0);
+//    }
 
     ZYNavigationViewController * nav = [[ZYNavigationViewController alloc] initWithRootViewController:childVc];
     nav.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -3);
